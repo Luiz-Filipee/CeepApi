@@ -34,12 +34,12 @@ Geração de implementações de API com base em interfaces Java.
 Suporte a chamadas síncronas e assíncronas para operações de rede.
 
 ## Outros Conceitos Android
---*LiveData*--: Para observar mudanças nos dados e atualizar a interface do usuário em tempo real.
---*Lifecycle*--: Para utilizar coroutines em suspend functions.
---*ViewModel*--: Para gerenciar dados relacionados à interface do usuário de forma eficiente e sobreviver a mudanças de configuração.
---*DataBinding*--: Para ligar componentes de interface do usuário diretamente a propriedades de dados, reduzindo o código boilerplate.
---*Material Design*--: Para criar uma interface de usuário atraente e consistente.
---*MVVM*--: Arquitetura utilizada no projeto.
+-LiveData*--: Para observar mudanças nos dados e atualizar a interface do usuário em tempo real.
+-Lifecycle*--: Para utilizar coroutines em suspend functions.
+-ViewModel*--: Para gerenciar dados relacionados à interface do usuário de forma eficiente e sobreviver a mudanças de configuração.
+-DataBinding*--: Para ligar componentes de interface do usuário diretamente a propriedades de dados, reduzindo o código boilerplate.
+-Material Design*--: Para criar uma interface de usuário atraente e consistente.
+-MVVM*--: Arquitetura utilizada no projeto.
 
 ## Estrutura do Projeto
 --data*--: Contém as classes de entidade, DAO e banco de dados do Room.
