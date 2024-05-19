@@ -27,22 +27,25 @@ Tecnologias Utilizadas
 Facilita a persistência de dados no dispositivo, oferecendo uma camada de abstração sobre o SQLite.
 Permite consultas SQL diretamente nos objetos de dados.
 Garante operações de banco de dados seguras e eficientes com suporte a transações.
-Retrofit
+
+## Retrofit
 Biblioteca para simplificar a comunicação com serviços web.
 Geração de implementações de API com base em interfaces Java.
 Suporte a chamadas síncronas e assíncronas para operações de rede.
-Outros Conceitos Android
-LiveData: Para observar mudanças nos dados e atualizar a interface do usuário em tempo real.
-ViewModel: Para gerenciar dados relacionados à interface do usuário de forma eficiente e sobreviver a mudanças de configuração.
-DataBinding: Para ligar componentes de interface do usuário diretamente a propriedades de dados, reduzindo o código boilerplate.
-Navigation Component: Para gerenciar a navegação entre diferentes telas do aplicativo de forma segura e eficiente.
-Material Design: Para criar uma interface de usuário atraente e consistente.
+
+## Outros Conceitos Android
+--*LiveData*--: Para observar mudanças nos dados e atualizar a interface do usuário em tempo real.
+--*Lifecycle*--: Para utilizar coroutines em suspend functions.
+--*ViewModel*--: Para gerenciar dados relacionados à interface do usuário de forma eficiente e sobreviver a mudanças de configuração.
+--*DataBinding*--: Para ligar componentes de interface do usuário diretamente a propriedades de dados, reduzindo o código boilerplate.
+--*Material Design*--: Para criar uma interface de usuário atraente e consistente.
+--*MVVM*--: Arquitetura utilizada no projeto.
 
 ## Estrutura do Projeto
-data: Contém as classes de entidade, DAO e banco de dados do Room.
-network: Contém as classes de serviço e modelo do Retrofit.
-ui: Contém as atividades e fragmentos para a interface do usuário.
-viewmodel: Contém as classes ViewModel para gerenciar dados da interface de forma eficiente.
+--*data*--: Contém as classes de entidade, DAO e banco de dados do Room.
+--*webclient*--: Contém as classes de serviço e modelo do Retrofit.
+--*extensions*--: Contém os metódos de conversão de dados.
+--*ui*--: Contém as atividades e fragmentos para a interface do usuário.
 
 ## Como Executar
 
