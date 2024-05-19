@@ -42,10 +42,10 @@ Suporte a chamadas síncronas e assíncronas para operações de rede.
 --*MVVM*--: Arquitetura utilizada no projeto.
 
 ## Estrutura do Projeto
---*data*--: Contém as classes de entidade, DAO e banco de dados do Room.
---*webclient*--: Contém as classes de serviço e modelo do Retrofit.
---*extensions*--: Contém os metódos de conversão de dados.
---*ui*--: Contém as atividades e fragmentos para a interface do usuário.
+--data*--: Contém as classes de entidade, DAO e banco de dados do Room.
+--webclient*--: Contém as classes de serviço e modelo do Retrofit.
+--extensions*--: Contém os metódos de conversão de dados.
+--ui*--: Contém as atividades e fragmentos para a interface do usuário.
 
 ## Como Executar
 
