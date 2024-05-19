@@ -1,3 +1,7 @@
+## Funcionamento
+
+https://github.com/Luiz-Filipee/CeepApi/assets/147888923/859c8283-5c08-437e-99de-2fc8846c1991
+
 ## Funcionalidades
 
 ## Cadastro de Notas
