@@ -1,19 +1,20 @@
 ## Funcionalidades
 
 ## Cadastro de Notas
-Permite aos usuários criar novas notas com um título e conteúdo.
+-- Permite aos usuários criar novas notas com um título e conteúdo.
 Validação de entrada para garantir que o título e o conteúdo não estejam vazios.
 Interface de usuário intuitiva para facilitar o cadastro rápido de notas.
 
 ## Alteração de Notas
-Os usuários podem editar notas existentes, atualizando o título e o conteúdo conforme necessário.
+-- Os usuários podem editar notas existentes, atualizando o título e o conteúdo conforme necessário.
 Interface de edição com preenchimento automático dos dados atuais da nota para facilitar a modificação.
 
 ## Remoção de Notas
-Permite que os usuários removam notas indesejadas ou obsoletas.
+-- Permite que os usuários removam notas indesejadas ou obsoletas.
 Confirmação de exclusão para evitar remoções acidentais.
-Persistência Local com Room
-Utiliza o Room para armazenar notas localmente no dispositivo.
+
+## Persistência Local com Room
+-- Utiliza o Room para armazenar notas localmente no dispositivo.
 Implementação de DAO (Data Access Objects) para operações de banco de dados, como inserção, atualização e exclusão de notas.
 Sincronização automática entre a interface do usuário e o banco de dados local.
 
