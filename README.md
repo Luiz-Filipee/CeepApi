@@ -2,37 +2,37 @@
 
 ## Cadastro de Notas
 - Permite aos usuários criar novas notas com um título e conteúdo.
-Validação de entrada para garantir que o título e o conteúdo não estejam vazios.
-Interface de usuário intuitiva para facilitar o cadastro rápido de notas.
+- Validação de entrada para garantir que o título e o conteúdo não estejam vazios.
+- Interface de usuário intuitiva para facilitar o cadastro rápido de notas.
 
 ## Alteração de Notas
 - Os usuários podem editar notas existentes, atualizando o título e o conteúdo conforme necessário.
-Interface de edição com preenchimento automático dos dados atuais da nota para facilitar a modificação.
+- Interface de edição com preenchimento automático dos dados atuais da nota para facilitar a modificação.
 
 ## Remoção de Notas
 - Permite que os usuários removam notas indesejadas ou obsoletas.
-Confirmação de exclusão para evitar remoções acidentais.
+- Confirmação de exclusão para evitar remoções acidentais.
 
 ## Persistência Local com Room
 - Utiliza o Room para armazenar notas localmente no dispositivo.
-Implementação de DAO (Data Access Objects) para operações de banco de dados, como inserção, atualização e exclusão de notas.
-Sincronização automática entre a interface do usuário e o banco de dados local.
+- Implementação de DAO (Data Access Objects) para operações de banco de dados, como inserção, atualização e exclusão de notas.
+- Sincronização automática entre a interface do usuário e o banco de dados local.
 
 ## Sincronização Remota com Retrofit
-Consome uma API REST para salvar notas remotamente, permitindo sincronização entre diferentes dispositivos.
-Retrofit é usado para realizar chamadas de rede de forma eficiente e gerenciar as respostas da API.
-Implementação de endpoints para operações de CRUD (Create, Read, Update, Delete) na API remota.
-Tecnologias Utilizadas
+- Consome uma API REST para salvar notas remotamente, permitindo sincronização entre diferentes dispositivos.
+- Retrofit é usado para realizar chamadas de rede de forma eficiente e gerenciar as respostas da API.
+- Implementação de endpoints para operações de CRUD (Create, Read, Update, Delete) na API remota.
 
+## Tecnologias Utilizadas
 ## Room
-Facilita a persistência de dados no dispositivo, oferecendo uma camada de abstração sobre o SQLite.
-Permite consultas SQL diretamente nos objetos de dados.
-Garante operações de banco de dados seguras e eficientes com suporte a transações.
+- Facilita a persistência de dados no dispositivo, oferecendo uma camada de abstração sobre o SQLite.
+- Permite consultas SQL diretamente nos objetos de dados.
+- Garante operações de banco de dados seguras e eficientes com suporte a transações.
 
 ## Retrofit
-Biblioteca para simplificar a comunicação com serviços web.
-Geração de implementações de API com base em interfaces Java.
-Suporte a chamadas síncronas e assíncronas para operações de rede.
+- Biblioteca para simplificar a comunicação com serviços web.
+- Geração de implementações de API com base em interfaces Java.
+- Suporte a chamadas síncronas e assíncronas para operações de rede.
 
 ## Outros Conceitos Android
 - **LiveData**: Para observar mudanças nos dados e atualizar a interface do usuário em tempo real.
@@ -51,7 +51,7 @@ Suporte a chamadas síncronas e assíncronas para operações de rede.
 ## Como Executar
 
 ## Clone este repositório:
-git clone https://github.com/seu-usuario/NotasApp.git
+- git clone https://github.com/seu-usuario/NotasApp.git
 
 ## Abra o projeto no Android Studio.
 - Configure as dependências do Gradle e sincronize o projeto.
