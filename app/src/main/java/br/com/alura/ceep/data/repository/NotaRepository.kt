@@ -29,8 +29,10 @@ class NotaRepository(
     }
 
     suspend fun remove(id: String) {
-        localNotaDataSource.remove(id)
-        apiNotaDataSource.remove(id)
+        localNotaDataSource.desativa(id) // soft delete: permite marcar alguns registros como excluídos sem apagá-los do banco de dados
+        if(apiNotaDataSource.remove(id)){
+            localNotaDataSource.remove(id) // hard delete: removendo permanentemente do banco de dados
+        }
     }
 
     suspend fun salva(nota: Nota) {
@@ -42,6 +44,10 @@ class NotaRepository(
     }
 
     suspend fun sincroniza(){
+        val notasDesativadas = localNotaDataSource.buscaNotasDesativadas().first()
+        notasDesativadas.forEach { notaDesativada ->
+            remove(notaDesativada.id)
+        }
         val notasNaoSincronizadas = localNotaDataSource.buscaNaoSincronizadas().first()
         notasNaoSincronizadas.forEach{ notaNaoSincronizada ->
             salva(notaNaoSincronizada)

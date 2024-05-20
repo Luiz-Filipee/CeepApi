@@ -38,7 +38,13 @@ class ApiNotaDataSource {
         return false
     }
 
-    suspend fun remove(id: String) {
-        notaService.remove(id)
+    suspend fun remove(id: String): Boolean {
+        try {
+            notaService.remove(id)
+            return true
+        } catch (e: Exception) {
+            Log.e(TAG, "remove: falha ao remover", e)
+        }
+        return false
     }
 }

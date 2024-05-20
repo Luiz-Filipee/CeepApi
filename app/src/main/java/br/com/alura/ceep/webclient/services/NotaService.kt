@@ -16,7 +16,7 @@ interface NotaService {
     suspend fun buscaTodas(): List<NotaResposta>
 
     @DELETE("notas/{id}")
-    suspend fun remove(@Path("id") id: String)
+    suspend fun remove(@Path("id") id: String): Response<Void>
 
     @PUT("notas/{id}")
     suspend fun salva(@Path("id") id: String,
