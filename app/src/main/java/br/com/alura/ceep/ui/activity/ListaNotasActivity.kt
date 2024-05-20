@@ -29,6 +29,7 @@ class ListaNotasActivity : AppCompatActivity() {
         NotaRepository(
             AppDatabase.instancia(this).notaDao(),
             ApiNotaDataSource()
+
         )
     }
 
